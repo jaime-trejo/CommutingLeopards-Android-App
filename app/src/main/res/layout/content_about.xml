@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.wit.termproject.project.Sources"
+    tools:showIn="@layout/activity_about"
+    >
+
+
+    <ImageView
+        android:id="@+id/leopard"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:src="@drawable/leopard_white"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Collaborators"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAlignment="center"
+        android:layout_below="@+id/leopard"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/collaborators" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Mark Ambrefe"
+        android:textAlignment="center"
+        android:id="@+id/mark"
+        android:textColor="@color/black"
+        android:layout_below="@+id/collaborators"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Joseph Gay"
+        android:textAlignment="center"
+        android:layout_below="@+id/mark"
+        android:layout_alignParentStart="true"
+        android:id="@+id/joe"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Michael Kemp"
+        android:textAlignment="center"
+        android:layout_below="@+id/joe"
+        android:layout_alignParentStart="true"
+        android:id="@+id/mike"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Jimmy Nguyen"
+        android:textAlignment="center"
+        android:layout_below="@+id/mike"
+        android:layout_alignParentStart="true"
+        android:id="@+id/jimmy"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="Jaime Trejo"
+        android:textAlignment="center"
+        android:layout_below="@+id/jimmy"
+        android:layout_alignParentStart="true"
+        android:id="@+id/jaime"
+        android:textColor="@color/black"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jaime">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sources"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/akexorcist"
+            android:id="@+id/akexorcist_textview"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/mass_bike"
+            android:id="@+id/massbike_textview"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/akexorcist_textview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/boston_website"
+            android:id="@+id/bostonWebsite_textView"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/massbike_textview"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/fuel_economy"
+            android:id="@+id/fuelEconomy_textView"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/bostonWebsite_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/google_api"
+            android:id="@+id/googleAPI_textView"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/fuelEconomy_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/google_samples"
+            android:id="@+id/google_samples_textview"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/googleAPI_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/mbta"
+            android:id="@+id/mbta_textView"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/google_samples_textview"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/eia_gasoline"
+            android:id="@+id/eiaGasoline_textView"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/mbta_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sustainability_wentworth"
+            android:id="@+id/sustainability_textView"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/eiaGasoline_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

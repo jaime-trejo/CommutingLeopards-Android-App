@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/table_emissions"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" />
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvExp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:paddingTop="5dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/table_model_splits_for_students_2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+
+</RelativeLayout>

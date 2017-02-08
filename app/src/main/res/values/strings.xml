@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Commuting Leopards</string>
+    <string name="app_name_tips">Tips</string>
+    <string name="app_name_about">About</string>
+    <string name="app_name_emission">Emissions</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Home Page -->
+    <string name="tips_btn_text">Tips</string>
+    <string name="toHome_btn_text">Go Home</string>
+    <string name="emissions_btn_text">Emissions Data</string>
+    <string name="about_btn_text">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Tips Page -->
+    <string name="car_safety_header">Vehicle Safety</string>
+    <string name="car_tip1">Always use turn signals.</string>
+    <string name="car_tip2">Don’t get distracted by using your cell phone.</string>
+    <string name="car_tip3">Check mirrors and blind spots.</string>
+    <string name="car_tip4">Look before you open your car door.</string>
+    <string name="car_tip5">Stay out of bike lanes.</string>
+    <string name="car_tip6">Pass bicyclists slowly.</string>
+    <string name="car_tip7">Give bicyclists at least 4 feet when passing.</string>
+    <string name="car_tip8">Allow bicyclists the entire lane if necessary.</string>
+    <string name="personal_safety_header">Personal Safety</string>
+    <string name="personal_tip1">Always be alert and aware of your surroundings and the people around you.</string>
+    <string name="personal_tip2">Refrain from listening to music or wearing headphones while riding the transit system.(iPods and cell phones will distract you and could make you a potential target)</string>
+    <string name="personal_tip3">lf you are attacked, scream or blow a whistle in order to bring attention to your situation.</string>
+    <string name="bus_safety_header">Bus Safety</string>
+    <string name="bus_safety_tip1">Stand near others and in well-lighted areas, move to your bus as it arrives.</string>
+    <string name="bus_safety_tip2">During off hours, ride as near the bus driver as possible.</string>
+    <string name="bus_safety_tip3">lf trouble occurs, notify the bus driver. The bus driver can radio into his/her dispatcher, who can then notify the MBTA Transit Police Department.</string>
+    <string name="train_safety_header">Train Safety</string>
+    <string name="train_safety_tip1">When waiting for a train, stay in a central location that is occupied by other patrons (it\'s true that there is safety in numbers).</string>
+    <string name="train_safety_tip2">During off hours, ride as close to the train operator as possible.</string>
+    <string name="train_safety_tip3">lf someone bothers you, move to another seat or car and notify the train operator.</string>
+    <string name="train_safety_tip4">lf you are on a platform or inside a station, you may use the Police Call Box to notify the Transit Police.</string>
+    <string name="train_safety_tip5">If you are on a train, train operators can be contacted by using the intercom at each end of every train car.</string>
+    <string name="bicycle_safety_trafficHeader">Bicycle - Traffic Principles</string>
+    <string name="bicycle_safety_traffic1">Always use hand signals to let people know you plan to stop or turn.</string>
+    <string name="bicycle_safety_traffic2">Ride on the right side of the road.</string>
+    <string name="bicycle_safety_traffic3">Always ride with the flow of traffic.</string>
+    <string name="bicycle_safety_traffic4">You must give pedestrians the right of way.</string>
+    <string name="bicycle_safety_traffic5">Make eye contact with motorist to make them aware of your presence.</string>
+    <string name="bicycle_safety_gearHeader">Bicycle - Gear Basics</string>
+    <string name="bicycle_safety_gear1">Pump tires up regularly and replace them when they are worn.</string>
+    <string name="bicycle_safety_gear2">Use a high-security U-lock to secure wheels</string>
+    <string name="bicycle_safety_gear3">Always wear a helmet while riding your bike no matter what.</string>
+    <string name="bicycle_safety_gear4">Wear bright or reflective clothing.</string>
+    <string name="bicycle_safety_gear5">Lights are mandatory at night, white in front and red for the rear.</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- About Page -->
+    <string name="akexorcist">Akexorcist. "Akexorcist/Android-GoogleDirectionLibrary." GitHub. N.p., n.d. Web. 12 Apr. 2016.</string>
+    <string name="mass_bike">"Bike Law." MassBike. Massachusetts Bicycle Coalition, n.d. Web. 23 Feb. 2016.</string>
+    <string name="boston_website">"Cityofboston.gov - Official Web Site of the City of Boston." Bikes. N.p., n.d. Web. 05 Feb. 2016.</string>
+    <string name="fuel_economy">"Fuel Economy." Fuel Economy. N.p., n.d. Web. 23 Feb. 2016.</string>
+    <string name="google_api">"Google Maps APIs for Android  |  Google Developers." Google Developers. N.p., n.d. Web. 05 Feb. 2016.</string>
+    <string name="google_samples">Googlesamples. "Googlesamples/android-play-location." GitHub. N.p., n.d. Web. 12 Apr. 2016.</string>
+    <string name="mbta">"Massachusetts Bay Transportation Authority." MBTA Safety Safety Tips. Massachusetts Bay Transportation Authority, n.d. Web. 23 Feb. 2016.</string>
+    <string name="eia_gasoline">"Massachusetts Gasoline and Diesel Retail Prices." Massachusetts Gasoline and Diesel Retail Prices. N.p., 22 Feb. 2016. Web. 23 Feb. 2016.</string>
+    <string name="sustainability_wentworth">"Sustainability @ Wentworth." Sustainability Homepage Sustainability: Wentworth Institute of Technology. N.p., n.d. Web. 05 Feb. 2016.</string>
+    <string name="title_activity_transportation_options">TransportationOptions</string>
+
+    <!--Transportation Options Page -->
+    <string name="transportation_options">Transportation Options</string>
+
+    <!--Current Location -->
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Current Location</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="directions_server_key">AIzaSyAKhVAVLx4M3SU-LoEUXdrccpxrQVAhL8Q</string>
+<!-- For random green tips that pop up on the home page -->
+    <string-array
+        name="random_tips">
+        <item>In 2005, public transportation saved the U.S. 6.9 million tons of CO2 emissions.</item>
+        <item>Save a few pounds of CO2 by sharing a ride with your neighbors or coworkers.</item>
+        <item>Consider going carless and biking to work!</item>
+        <item>Hybrids and electric vehicles have better gas mileage and run cleaner than their counterparts.</item>
+        <item>Keeping your tires properly inflated can save an estimated 2 billion gallons of gas each year.</item>
+        <item>Adhering to the speed limit and avoiding sudden starts and stops will help you burn less gas and bump up your MPG.</item>
+        <item>Cleaning your air filter regularly can improve your gas mileage significantly.</item>
+        <item>Speeding, rapid acceleration, and hard braking are not only unsafe; they lower your gas mileage.</item>
+        <item>Using your cruise control will keep you driving at a more consistent speed and can generally improve fuel efficiency.</item>
+        <item>Idling wastes fuel. It’s more efficient to turn the car off and restart when you are ready to go.</item>
+        <item>Driving around with heavy objects in your trunk? Leave them at home and save some fuel.</item>
+        <item>A tune-up could make a considerable improvement in your miles per gallon.</item>
+        <item>Travelling on off-peak days can prevent you hitting congested highways and wasting gas.</item>
+    </string-array>
+
+</resources>
